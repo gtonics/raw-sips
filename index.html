@@ -56,10 +56,18 @@ footer img{width:90px;margin:0 auto}
  .swatches{grid-template-columns:repeat(2,minmax(0,1fr))}
  section{padding:64px 0}
 }
+.pack .wrap{display:grid;grid-template-columns:1.15fr 1fr;gap:56px;align-items:center}
+.pack img{border-radius:24px}
+.pack ul{list-style:none;padding:0;margin:22px 0 28px;font-size:19px}
+.pack li{padding:10px 0;border-bottom:1px solid #E2DFD8}
+.pack li b{color:var(--purple)}
+.btn{display:inline-block;background:var(--purple);color:#fff;text-decoration:none;font-family:'Anton',Impact,sans-serif;font-size:22px;letter-spacing:1.5px;padding:14px 30px;border-radius:50px}
+.soon{display:inline-block;margin-left:14px;font-weight:700;font-size:14px;letter-spacing:3px;text-transform:uppercase;color:var(--purple)}
+@media (max-width:820px){.pack .wrap{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<nav><div class="wrap"><img src="img/logo.webp" alt="RAW sips"><ul><li><a href="#flavours">Flavours</a></li><li><a href="#about">The drink</a></li><li><a href="#brand">Brand</a></li></ul></div></nav>
+<nav><div class="wrap"><img src="img/logo.webp" alt="RAW sips"><ul><li><a href="#flavours">Flavours</a></li><li><a href="#sixpack">6-pack</a></li><li><a href="#about">The drink</a></li><li><a href="#brand">Brand</a></li></ul></div></nav>
 
 <header class="hero"><div class="wrap" style="padding-top:64px;padding-bottom:64px">
 <div>
@@ -84,6 +92,18 @@ footer img{width:90px;margin:0 auto}
 <p>Juicy white peach with a floral jasmine finish in a matte cream can with burnt-peach type.</p>
 <div class="chips"><span class="chip">7.5G FIBER</span><span class="chip">SUGAR FREE</span><span class="chip">250 ML</span></div></div>
 </div></section>
+
+<section id="sixpack" class="pack" style="background:#fff"><div class="wrap">
+<img src="img/sixpack.webp" alt="RAW sips mixed 6-pack: 3 Apple Blossom and 3 White Peach Jasmine 250 ml cans" width="1200" height="900">
+<div><p class="eyebrow">Mixed 6-pack</p><h2>BOTH FLAVOURS.<br>ONE PACK.</h2>
+<p class="serif" style="color:var(--purple);font-size:28px;margin:16px 0 0">Can’t pick? Don’t.</p>
+<ul>
+<li><b>3 ×</b> Apple Blossom</li>
+<li><b>3 ×</b> White Peach Jasmine</li>
+<li><b>6 × 250 ml</b> · 7.5 g fiber per can · sugar free</li>
+</ul>
+<a class="btn" href="mailto:info@gtonics.com?subject=RAW%20sips%20mixed%206-pack">GET THE 6-PACK</a><span class="soon">Launching soon</span>
+</div></div></section>
 
 <section id="about"><div class="wrap">
 <div class="head"><p class="eyebrow">The drink</p><h2>Good for your gut. Great for your taste.</h2></div>
